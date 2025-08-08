@@ -11,13 +11,23 @@ Disregard the current status of SELinux via the command line; the final status a
 
 ## What I Did
 - Commands practiced:
-  - `command1`
+  - `dnf search selinux`
   - `command2`
 
 ## What I Learned
-- Key concept or takeaway #1
-- Key concept or takeaway #2
+- dnf search selinux -> searches on CentOS distribution 
+- 
 
 ## Challenges / Questions
-- Question or confusion about ...
-- Issue I ran into and how I solved it (or not)
+- how do i know my linux ditribution?
+- - `cat /etc/os-release`
+
+- what are the different distributions? what are the commands to look for packages?
+
+| Distribution             | Family        | Package Manager              | Search Packages Command                          | Install Packages Command                           |
+| ------------------------ | ------------- | ---------------------------- | ------------------------------------------------ | -------------------------------------------------- |
+| **CentOS, RHEL, Fedora** | Red Hat-based | `yum` (older), `dnf` (newer) | `yum search <package>` or `dnf search <package>` | `yum install <package>` or `dnf install <package>` |
+| **Debian, Ubuntu**       | Debian-based  | `apt`                        | `apt search <package>`                           | `apt install <package>`                            |
+| **SUSE, openSUSE**       | SUSE-based    | `zypper`                     | `zypper search <package>`                        | `zypper install <package>`                         |
+| **Arch Linux**           | Independent   | `pacman`                     | `pacman -Ss <package>`                           | `pacman -S <package>`                              |
+
