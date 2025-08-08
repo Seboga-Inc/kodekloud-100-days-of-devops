@@ -2,12 +2,11 @@
 
 ## What I Did
 - Commands practiced:
-  - `command1`
-  - `command2`
+  - `(sudo) useradd -e YYYY-MM-DD username`
 
 ## What I Learned
-- Key concept or takeaway #1
-- Key concept or takeaway #2
+- `useradd -e` -> expiry date added
+- Format is Year-Month-Day: YYYY-MM-DD
 
 ## Challenges / Questions
 - Question or confusion about ...
