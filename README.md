@@ -2,7 +2,7 @@
 Daily practical tasks
 
 Index
-- [Day 01 Notes](Day 1: Linux User Setup with Non-Interactive Shell.md)
+- [Day 01 Notes](Day 1: Linux User Setup with Non-Interactive Shell)
 - 
 Format:
 # Day 0X - [Topic/Title]
