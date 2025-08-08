@@ -1,6 +1,3 @@
-# kodekloud-100-days-of-devops
-Daily practical tasks
-
 # 🚀 KodeKloud 100 Days of DevOps Challenge
 
 This repository documents my daily progress, notes, and learnings from the KodeKloud challenge.
