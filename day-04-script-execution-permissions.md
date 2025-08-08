@@ -11,6 +11,7 @@
 
 ## Challenges / Questions
 - Question: explain me the stripes
+  
 | Section | Characters | Meaning                              |
 | ------- | ---------- | ------------------------------------ |
 | Owner   | `rwx`      | Owner can read, write, execute       |
