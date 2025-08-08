@@ -11,12 +11,12 @@
 
 ## Challenges / Questions
 - Question: explain me the stripes
-- | Character | Meaning            |
-| --------- | ------------------ |
-| `r`       | read permission    |
-| `w`       | write permission   |
-| `x`       | execute permission |
-| `-`       | no permission      |
+| Section | Characters | Meaning                              |
+| ------- | ---------- | ------------------------------------ |
+| Owner   | `rwx`      | Owner can read, write, execute       |
+| Group   | `r-x`      | Group can read and execute, no write |
+| Others  | `r--`      | Others can only read                 |
+
 
 | Position | Meaning                            |
 | -------- | ---------------------------------- |
