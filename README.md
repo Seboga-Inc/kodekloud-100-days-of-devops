@@ -3,7 +3,9 @@ Daily practical tasks
 
 Index
 - [Day 01 Notes](day-01-linux-user-setup-non-interactive-shell)
-- 
+- [Day 02: Temporary User Setup with Expiry](day-02-temporary-user-setup-with-expiry.md) 
+
+
 Format:
 # Day 0X - [Topic/Title]
 
