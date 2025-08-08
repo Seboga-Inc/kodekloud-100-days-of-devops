@@ -15,11 +15,13 @@ Disregard the current status of SELinux via the command line; the final status a
 - `dnf search selinux`
 - `dnf install policycoreutils selinux-policy-targeted`
 - `vi /etc/selinux/config` or `nano /etc/selinux/config`
+- `getenforce` or `sestatus`
 
 ## What I Learned
 - dnf search selinux -> searches on CentOS distribution for Selinux
 - nano is not alwyays installed on your system; vi or vim — usually installed by default on CentOS/RHEL systems.
-- to disable selinux in config: change SELINUX=enforcing to SELINUX=disabled; save and reboot 
+- to disable selinux in config: change SELINUX=enforcing to SELINUX=disabled; save and reboot
+- to see status of SELinux use `sestatus`
 
 ## Challenges / Questions
 - how do i know my linux ditribution?
