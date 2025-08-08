@@ -10,5 +10,18 @@
 - Use chmod to add execution permission.
 
 ## Challenges / Questions
-- Question or confusion about ...
-- Issue I ran into and how I solved it (or not)
+- Question: explain me the stripes
+- | Character | Meaning            |
+| --------- | ------------------ |
+| `r`       | read permission    |
+| `w`       | write permission   |
+| `x`       | execute permission |
+| `-`       | no permission      |
+
+| Position | Meaning                            |
+| -------- | ---------------------------------- |
+| 1        | File type                          |
+| 2-4      | Owner permissions                  |
+| 5-7      | Group permissions                  |
+| 8-10     | Others (everyone else) permissions |
+
