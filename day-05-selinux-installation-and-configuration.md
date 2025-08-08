@@ -11,12 +11,14 @@ Disregard the current status of SELinux via the command line; the final status a
 
 ## What I Did
 - Commands practiced:
-  - `dnf search selinux`
-  - `command2`
+- `cat /etc/os-release`
+- `dnf search selinux`
+- `dnf install policycoreutils selinux-policy-targeted`
+- `vi /etc/selinux/config`
 
 ## What I Learned
-- dnf search selinux -> searches on CentOS distribution 
-- 
+- dnf search selinux -> searches on CentOS distribution for Selinux
+- nano is not alwyays installed on your system; vi or vim — usually installed by default on CentOS/RHEL systems.
 
 ## Challenges / Questions
 - how do i know my linux ditribution?
@@ -31,3 +33,8 @@ Disregard the current status of SELinux via the command line; the final status a
 | **SUSE, openSUSE**       | SUSE-based    | `zypper`                     | `zypper search <package>`                        | `zypper install <package>`                         |
 | **Arch Linux**           | Independent   | `pacman`                     | `pacman -Ss <package>`                           | `pacman -S <package>`                              |
 
+- how to use Vi or Vim?
+-- Press i to enter insert mode
+-- Make your changes
+-- Press Esc to exit insert mode
+-- Type :wq and hit Enter to save and quit
