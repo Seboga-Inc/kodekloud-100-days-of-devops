@@ -111,11 +111,8 @@ This repository documents my notes, and learnings from the KodeKloud challenge.
 
 ---
 
-## 📂 Repo Structure
+## 📂 Format
 
-
-
-Format:
 # Day 0X - [Topic/Title]
 
 ## What I Did
@@ -131,7 +128,3 @@ Format:
 ## Challenges / Questions
 - Question or confusion about ...
 - Issue I ran into and how I solved it (or not)
-
-## Next Steps / Practice Ideas
-- Try applying this to [project or scenario]
-- Look deeper into [related topic]
