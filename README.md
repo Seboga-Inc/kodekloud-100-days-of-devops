@@ -1,6 +1,6 @@
 # 🚀 KodeKloud 100 Days of DevOps Challenge
 
-This repository documents my daily progress, notes, and learnings from the KodeKloud challenge.
+This repository documents my notes, and learnings from the KodeKloud challenge.
 
 ---
 
