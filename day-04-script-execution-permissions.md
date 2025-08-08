@@ -16,7 +16,7 @@
 - Question: explain me the stripes
 
 File type (position 1)
--(-) means a regular file
+- (-) means a regular file
 - (d) means a directory
 - (l) means a symbolic link (shortcut)
 - (c) means character device file
