@@ -8,7 +8,3 @@
 ## What I Learned
 - -m → Creates a home directory.
 - -s /usr/sbin/nologin → Sets a non-interactive shell so the user can’t log in normally.
-
-## Challenges / Questions
-- Question or confusion about ...
-- Issue I ran into and how I solved it (or not)
