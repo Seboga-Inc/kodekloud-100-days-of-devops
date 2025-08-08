@@ -116,7 +116,6 @@ This repository documents my notes, and learnings from the KodeKloud challenge.
 # Day 0X - [Topic/Title]
 
 ## What I Did
-- Completed: [Lesson or Lab Name]
 - Commands practiced:
   - `command1`
   - `command2`
