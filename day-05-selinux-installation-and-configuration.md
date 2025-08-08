@@ -34,7 +34,7 @@ Disregard the current status of SELinux via the command line; the final status a
 | **Arch Linux**           | Independent   | `pacman`                     | `pacman -Ss <package>`                           | `pacman -S <package>`                              |
 
 - how to use Vi or Vim?
--- Press i to enter insert mode
--- Make your changes
--- Press Esc to exit insert mode
--- Type :wq and hit Enter to save and quit
+- - Press i to enter insert mode
+- - Make your changes
+- - Press Esc to exit insert mode
+- - Type :wq and hit Enter to save and quit
