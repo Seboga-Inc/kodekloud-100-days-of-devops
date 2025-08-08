@@ -7,5 +7,5 @@
   - `sudo systemctl restart sshd`
 
 ## What I Learned
-- Go to sshd_config with sudo and nano
+- Go to /etc/ssh/sshd_config with sudo and nano -> look for the PermitRootlogin set it to yes or no
 - Restart the system 
