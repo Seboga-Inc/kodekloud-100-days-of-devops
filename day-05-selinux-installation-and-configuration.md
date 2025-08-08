@@ -14,7 +14,7 @@ Disregard the current status of SELinux via the command line; the final status a
 - `cat /etc/os-release`
 - `dnf search selinux`
 - `dnf install policycoreutils selinux-policy-targeted`
-- `vi /etc/selinux/config`
+- `vi /etc/selinux/config` of `nano /etc/selonix/config`
 
 ## What I Learned
 - dnf search selinux -> searches on CentOS distribution for Selinux
