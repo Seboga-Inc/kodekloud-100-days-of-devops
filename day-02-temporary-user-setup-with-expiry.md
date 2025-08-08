@@ -7,7 +7,3 @@
 ## What I Learned
 - `useradd -e` -> expiry date added
 - Format is Year-Month-Day: YYYY-MM-DD
-
-## Challenges / Questions
-- Question or confusion about ...
-- Issue I ran into and how I solved it (or not)
