@@ -1,6 +1,9 @@
 # kodekloud-100-days-of-devops
 Daily practical tasks
 
+Index
+- [Day 01 Notes](day-01.md)
+- 
 Format:
 # Day 0X - [Topic/Title]
 
