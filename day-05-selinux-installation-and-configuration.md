@@ -19,6 +19,7 @@ Disregard the current status of SELinux via the command line; the final status a
 ## What I Learned
 - dnf search selinux -> searches on CentOS distribution for Selinux
 - nano is not alwyays installed on your system; vi or vim — usually installed by default on CentOS/RHEL systems.
+- to disable selinux in config: change SELINUX=enforcing to SELINUX=disabled; save and reboot 
 
 ## Challenges / Questions
 - how do i know my linux ditribution?
