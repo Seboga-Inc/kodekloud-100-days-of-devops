@@ -24,7 +24,7 @@ Purpose: Automates repetitive tasks (like backups, cleanup scripts, or reports) 
 
 - How to start an application/chronie e.g?
 - `sudo systemctl start crond`
-# Overall
+### Overall
 - `sudo systemctl start <service_name>`
 - `sudo systemctl enable <service_name>`
 - `sudo systemctl status <service_name>`
