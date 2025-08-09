@@ -6,14 +6,24 @@ The Nautilus system admins team has prepared scripts to automate several day-to-
 
 ## What I Did
 - Commands practiced:
-  - `command1`
-  - `command2`
+  - `dnf install chronie`
+  - `crontab -e`
+  - `sudo systemctl start crond`
 
 ## What I Learned
-- Key concept or takeaway #1
-- Key concept or takeaway #2
+- How to become a root: `sudo su -` This ensures you’re editing root’s config, not your own.
+ - `crontab -e` is in vi; u can insert by pressing 'i';'Esc'; ; :wq (save and exit)
+ - dont forget to start the application after installing
 
 ## Challenges / Questions
 - What is a Cronie?:
 - Cronie is a Linux utility that runs scheduled tasks (cron jobs); It’s basically the cron daemon that comes with many modern Linux distributions, especially Fedora, CentOS, and RHEL.
 Purpose: Automates repetitive tasks (like backups, cleanup scripts, or reports) by running them at fixed times, dates, or intervals.
+
+- How to start an application/chronie e.g?
+- `sudo systemctl start crond`
+- Overall
+- `sudo systemctl start <service_name>`
+- `sudo systemctl enable <service_name>`
+- `sudo systemctl status <service_name>`
+
