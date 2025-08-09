@@ -7,6 +7,7 @@ The Nautilus system admins team has prepared scripts to automate several day-to-
 ## What I Did
 - Commands practiced:
   - `dnf install chronie`
+  - `sudo su -e`
   - `crontab -e`
   - `sudo systemctl start crond`
 
