@@ -14,6 +14,7 @@ The Nautilus system admins team has prepared scripts to automate several day-to-
 - How to become a root: `sudo su -` This ensures you’re editing root’s config, not your own.
  - `crontab -e` is in vi; u can insert by pressing 'i';'Esc'; ; :wq (save and exit)
  - dont forget to start the application after installing
+- a quick way without editing in vi is `echo "*/5 * * * * echo hello > /tmp/cron_text" | crontab -`
 
 ## Challenges / Questions
 - What is a Cronie?:
