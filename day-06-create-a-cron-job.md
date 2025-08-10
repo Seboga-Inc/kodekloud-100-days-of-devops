@@ -29,7 +29,7 @@ Purpose: Automates repetitive tasks (like backups, cleanup scripts, or reports) 
 - `sudo systemctl enable <service_name>`
 - `sudo systemctl status <service_name>`
 
-- Why crontab -e and not vi cron?
+### Why crontab -e and not vi cron?
 - 💡 Rule of thumb:
 
 If you just want a script to run as root → use crontab -e as root.
